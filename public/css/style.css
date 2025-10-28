@@ -1,0 +1,40 @@
+@import url("./reset.css");
+
+body {
+    justify-items: center;
+
+}
+
+.header {
+    border: 2px solid sienna;
+    height: auto;
+    min-width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.user-card {
+    border: 2px solid sienna;
+    min-width: 90vw;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-cont {
+    border: 2px solid sienna;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 5px;
+    margin: 5px;
+}
+
+.btn {
+    padding: 5px;
+    margin: 5px;
+}
